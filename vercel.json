@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "http://n4.nexcloud.in:2037/api/:path*"
+      "destination": "http://change:2037/api/:path*"
     },
     {
       "source": "/transcripts/:path*",
-      "destination": "http://n4.nexcloud.in:2037/transcripts/:path*"
+      "destination": "http://change:2037/transcripts/:path*"
     },
     {
       "source": "/(.*)",
