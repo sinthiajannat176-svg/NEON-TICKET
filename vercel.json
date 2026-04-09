@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://epyc7.neoncloud.fun.app/api/:path*"
+      "destination": "http://epyc7.neoncloud.fun:25568/api/:path*"
     },
     {
       "source": "/transcripts/:path*",
-      "destination": "https://epyc7.neoncloud.fun/transcripts/:path*"
+      "destination": "http://epyc7.neoncloud.fun:25568/transcripts/:path*"
     },
     {
       "source": "/(.*)",
