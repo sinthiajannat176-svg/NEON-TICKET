@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "http://change:2037/api/:path*"
+      "destination": "https://NEON-TICKET/api/:path*"
     },
     {
       "source": "/transcripts/:path*",
-      "destination": "http://change:2037/transcripts/:path*"
+      "destination": "https://NEON-TICKET/transcripts/:path*"
     },
     {
       "source": "/(.*)",
