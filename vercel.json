@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://neon-ticket-five.vercel.app/api/:path*"
+      "destination": "https://neon-five.vercel.app/api/:path*"
     },
     {
       "source": "/transcripts/:path*",
-      "destination": "https://neon-ticket-five.vercel.app/transcripts/:path*"
+      "destination": "https://neon-five.vercel.app/transcripts/:path*"
     },
     {
       "source": "/(.*)",
